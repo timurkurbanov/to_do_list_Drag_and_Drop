@@ -15,12 +15,6 @@ const ColumnsContainer = styled.div`
   display: flex;
 `;
 
-const GitHubLink = styled.a`
-  display: inline-block;
-  margin: 8px;
-  font-size: 16px;
-`;
-
 class InnerList extends React.PureComponent {
   render() {
     const { column, taskMap, index } = this.props
